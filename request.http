@@ -1,0 +1,28 @@
+### 
+
+POST http://localhost:4000/
+
+-----------------
+ElasticSearch
+-----------------
+
+### create-index
+POST http://localhost:3000/create-index
+
+### send data
+POST http://localhost:3000/data
+
+###  recive data
+GET  http://localhost:3000/data
+
+### delete data
+DELETE  http://localhost:3000/data/:id
+
+
+### temp 
+
+GET http://localhost:9200/users
+
+
+
+
